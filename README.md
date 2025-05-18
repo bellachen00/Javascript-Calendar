@@ -2,6 +2,10 @@
 
 A calendar clone implementation in Javascript. 
 
+<p align ="center">
+    <img src="calendarImg.png" alt="Calendar Example" />
+</p>
+
 ## Files
 > * Picker.js
 > * picker.html
