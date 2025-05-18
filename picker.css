@@ -1,0 +1,51 @@
+body {
+    font-family: 'Arial', sans-serif; 
+}
+.calendar {
+    height: 250px;
+    width: 250px;
+}
+.days {
+    display: flex;
+    flex-wrap: wrap;
+}
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/calc */
+.weekdays,.lastmonth, .thismonth, .nextmonth {
+    width: calc(100%/7);
+    height: calc(100%/6);
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.monthandyear{
+    font-weight: bold;
+}
+
+.thismonth {
+    border-radius: 50%;
+}
+.thismonth:hover{
+    background-color: salmon;
+}
+
+.lastmonth, .nextmonth{
+    color: lightgray;
+}
+
+.leftarrow {
+    float: left;
+}
+
+.monthandyear{
+    float: left;
+    text-align: center;
+}
+
+#today{
+    background-color: salmon;
+    font-weight: bold;
+}
+
+.weekdays{
+    font-weight: bold;
+}
